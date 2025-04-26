@@ -19,8 +19,8 @@ Then we build a system to **chat in natural language with your database** using 
 
 ## 🗈️ System Interface Example
 
-![Invoice Upload](./images/screenshot_1.png)
-![Invoice Upload](./images/screenshot_2.png)
+![Invoice Upload](./images/Screenshot_1.png)
+![Invoice Upload](./images/Screenshot_2.png)
 
 ---
 
