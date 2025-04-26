@@ -1,0 +1,5 @@
+psycopg2 
+mysql-connector-python
+google-genai
+json-repair
+streamlit
