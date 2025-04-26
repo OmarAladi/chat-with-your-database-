@@ -3,3 +3,9 @@ mysql-connector-python
 google-genai
 json-repair
 streamlit
+transformers 
+torch 
+torchvision 
+torchaudio 
+huggingface_hub
+ 
