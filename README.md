@@ -68,10 +68,20 @@ pip install -r requirements.txt
 Or you can manually install the libraries like this:
 
 ```bash
-pip install streamlit pandas psycopg2-binary mysql-connector-python google-genai json-repair
+pip install streamlit pandas psycopg2-binary mysql-connector-python google-genai json-repair transformers torch torchvision torchaudio huggingface_hub
 ```
 
-### 5. Run the Application
+### 5. Hugging Face Authentication
+
+Before running the application, authenticate your machine with Hugging Face:
+
+```bash
+huggingface-cli login --token YOUR_HUGGINGFACE_TOKEN
+```
+
+Replace `YOUR_HUGGINGFACE_TOKEN` with your personal Hugging Face access token.
+
+### 6. Run the Application
 
 After installing the requirements, you can run the Streamlit application using the following command:
 
@@ -90,7 +100,8 @@ Now, you're all set to use the SQL Chatbot System! If you encounter any issues, 
 | File | Purpose |
 |:----|:--------|
 | `connect_database.py` | Connects to different databases and extracts schema |
-| `text2sql.py` | Converts natural language to SQL using Gemini API |
+| `text2sql.py` | Converts natural language to SQL using the fine-tuned Hugging Face model |
+| `text2sql_test.py` | Test file for running individual text-to-SQL generation locally using Gemini API |
 | `streamlit_sql_chatbot_app.py` | Streamlit web app for user interaction |
 
 ---
