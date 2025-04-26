@@ -19,7 +19,8 @@ Then we build a system to **chat in natural language with your database** using 
 
 ## 🗈️ System Interface Example
 
-![Chatbot Screenshot](./b47a81e5-0af5-4f67-bd56-9ee86519b4de.png)
+![Invoice Upload](./images/screenshot_1.png)
+![Invoice Upload](./images/screenshot_2.png)
 
 ---
 
