@@ -83,21 +83,13 @@ Now, you're all set to use the SQL Chatbot System! If you encounter any issues, 
 
 ---
 
-### 2. Files Structure
+## 📚 Files Structure
 
 | File | Purpose |
 |:----|:--------|
 | `connect_database.py` | Connects to different databases and extracts schema |
 | `text2sql.py` | Converts natural language to SQL using Gemini API |
 | `streamlit_sql_chatbot_app.py` | Streamlit web app for user interaction |
-
----
-
-### 3. Launch the Application
-
-```bash
-streamlit run streamlit_sql_chatbot_app.py
-```
 
 ---
 
