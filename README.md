@@ -1,6 +1,6 @@
 # Fine-tuning Google Gemma 3B on Synthetic Text-to-SQL Dataset
 
-![System Flow](./aea3a320-f6a5-44bb-a5e6-9a3d6d73eac4.png)
+![Invoice Upload](./images/system_graph.png)
 
 ## 📚 Overview
 
@@ -20,6 +20,7 @@ Then we build a system to **chat in natural language with your database** using 
 ## 🗈️ System Interface Example
 
 ![Invoice Upload](./images/Screenshot_1.png)
+
 ![Invoice Upload](./images/Screenshot_2.png)
 
 ---
