@@ -27,13 +27,59 @@ Then we build a system to **chat in natural language with your database** using 
 
 ## 🚀 How to Run
 
-### 1. Requirements
+Follow these steps to run the SQL Chatbot System on your local machine:
 
-Install the required packages:
+### 1. Create a Virtual Environment
+
+Open your command line (Command Prompt or Terminal) and run the following command to create a new virtual environment:
+
+```bash
+conda create --name SQLChatbotSystem python=3.10 -y
+```
+
+### 2. Activate the Virtual Environment
+
+Activate the virtual environment using the command appropriate for your operating system:
+
+```bash
+conda activate SQLChatbotSystem
+```
+
+### 3. Clone the Repository
+
+Once the environment is activated, clone the repository using the following command:
+
+```bash
+git clone [repository_link]
+```
+
+Replace [repository_link] with the actual link to your Git repository.
+
+### 4. Install Requirements
+
+Ensure you are inside the cloned repository folder, then install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Or you can manually install the libraries like this:
 
 ```bash
 pip install streamlit pandas psycopg2-binary mysql-connector-python google-genai json-repair
 ```
+
+### 5. Run the Application
+
+After installing the requirements, you can run the Streamlit application using the following command:
+
+```bash
+streamlit run streamlit_sql_chatbot_app.py
+```
+
+This will open a window in your web browser displaying the SQL Chatbot interface.
+
+Now, you're all set to use the SQL Chatbot System! If you encounter any issues, feel free to reach out for help.
 
 ---
 
