@@ -44,7 +44,7 @@ Follow these steps to run the SQL Chatbot System on your local machine:
 Open your command line (Command Prompt or Terminal) and run the following command to create a new virtual environment:
 
 ```bash
-conda create --name SQLChatbotSystem python=3.10 -y
+conda create --name SQLChatbotSystem python=3.12 -y
 ```
 
 ### 2. Activate the Virtual Environment
