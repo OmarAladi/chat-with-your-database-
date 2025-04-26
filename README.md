@@ -21,7 +21,7 @@ Then we build a system to **chat in natural language with your database** using 
 
 ![Invoice Upload](./images/Screenshot_1.png)
 
-![Invoice Upload](./images/Screenshot_2.png)
+![Invoice Upload](./images/Screenshot_3.png)
 
 ---
 
@@ -113,9 +113,7 @@ Now, you're all set to use the SQL Chatbot System! If you encounter any issues, 
 
 ## 🧹 Example Chatbot Screenshot
 
-Here's a full interaction flow:
-
-![System Usage Screenshot](./aea3a320-f6a5-44bb-a5e6-9a3d6d73eac4.png)
+![Invoice Upload](./images/Screenshot_2.png)
 
 ---
 
