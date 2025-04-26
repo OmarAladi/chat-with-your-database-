@@ -10,6 +10,14 @@ This project fine-tunes **Google's `gemma-3-1b-it` model** on the **GretelAI `sy
 
 - Final Fine-tuned Model: [View on Hugging Face](https://huggingface.co/OmarAladdin/gemma-3-1b-text2sql)
 
+>✨ **Important Update:**
+>
+> 🚧 The model is **still under training**.
+>
+> 🏗️ The **final production-ready version** will be available **very soon**.
+>
+> Stay tuned for more updates!
+
 Then we build a system to **chat in natural language with your database** using the fine-tuned model:
 - Connects to your database
 - Reads the database schema
