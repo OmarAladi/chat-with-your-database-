@@ -17,7 +17,7 @@ def parse_json(text):
 
 def generate(question, schema):
     client = genai.Client(
-        api_key="AIzaSyDFtsx8MbAAw8tqCL-pEgJOU0QjPhXmaWk"
+        api_key=" "
     )
 
     model = "gemini-2.5-flash-preview-04-17"
